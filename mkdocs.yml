@@ -1,9 +1,7 @@
 site_name: iQuivity Documentation
 site_description: Comprehensive user guide for iQuivity platform
 site_author: iQuivity Team
-site_url: https://[your-github-username].github.io/[your-repo-name]/
-# Change the above URL to match your GitHub Pages URL after deployment
-# Format: https://USERNAME.github.io/REPOSITORY-NAME/
+site_url: https://rpemmara.github.io/iquivity-docs/
 
 theme:
   name: material
