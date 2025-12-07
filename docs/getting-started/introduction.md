@@ -105,6 +105,23 @@ Your subscription plan determines your monthly credit allocation. Monitor usage 
 
 ## Common First Tasks
 
+### Create Content
+
+**AI Writer:**
+- Navigate to AI Content Generation → AI Writer
+- Choose a template or start from scratch
+- Generate blog posts, marketing copy, articles
+
+**AI Images:**
+- Navigate to AI Content Generation → AI Image Generator
+- Enter text prompt describing desired image
+- Generate professional graphics instantly
+
+**AI Videos:**
+- Navigate to AI Content Generation → AI Video Creator
+- Upload content or use URL-to-video conversion
+- Create engaging video content
+
 ---
 
 ### Build Customer Engagement Tools
@@ -150,6 +167,11 @@ Your subscription plan determines your monthly credit allocation. Monitor usage 
 - Login and setup guide
 - Dashboard overview
 - Account configuration
+
+**AI Content Generation**
+- AI Writer
+- AI Image Generator
+- AI Video Creator
 
 **IQ Bot**
 - Overview and getting started
@@ -230,10 +252,11 @@ Choose your path based on your immediate needs:
     1. [Login and configure account](account-creation.md)
     2. [Create your first IQ Bot](../chatbots/iq-bot/getting-started.md)
     3. [Deploy AI Bot for support](../chatbots/ai-bot/creating.md)
-    4. [Set up marketing campaigns](../marketing/social-media/dashboard.md)
+    4. [Generate marketing content](../features/ai-writer.md)
 
 **Alternative Paths:**
 
+- **Content Creators:** Start with [AI Writer](../features/ai-writer.md) and [AI Images](../features/ai-images.md)
 - **E-commerce:** Start with [IQ Bot](../chatbots/iq-bot/getting-started.md) for checkout consolidation
 - **Marketing Teams:** Start with [AI Social Media](../marketing/social-media/dashboard.md)
 - **Support Teams:** Start with [AI Bot deployment](../chatbots/ai-bot/deployment.md)

@@ -138,6 +138,10 @@ nav:
       - Introduction: getting-started/introduction.md
       - Creating Your Account: getting-started/account-creation.md
       - Dashboard Overview: getting-started/dashboard.md
+  - AI Content Generation:
+      - AI Writer: features/ai-writer.md
+      - AI Image Generator: features/ai-images.md
+      - AI Video Creator: features/ai-videos.md
   - IQ Bot:
       - Overview: chatbots/iq-bot/overview.md
       - Getting Started: chatbots/iq-bot/getting-started.md
