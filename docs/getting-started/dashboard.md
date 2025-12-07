@@ -158,41 +158,11 @@ Your main navigation menu provides access to all platform features.
 - Return to home screen
 - View overview and statistics
 
-**AI Writer** ✍️
-- Text content generation
-- Blog posts, articles, marketing copy
-- Access to writing templates
-- [Learn more →](../features/ai-writer.md)
-
-**AI Images** 🎨
-- Image generation from text
-- Edit and enhance images
-- Image gallery management
-- [Learn more →](../features/ai-images.md)
-
-**AI Videos** 🎬
-- Video creation tools
-- URL to video conversion
-- Viral clip generation
-- [Learn more →](../features/ai-videos.md)
-
 **Chatbots** 🤖
 - Create and manage chatbots
 - Training and customization
 - Analytics and conversations
 - [Learn more →](../chatbots/iq-bot/overview.md)
-
-**Templates** 📋
-- Browse template library
-- Custom templates
-- Workbook management
-- [Learn more →](../features/templates.md)
-
-**Files** 📁
-- File manager and storage
-- Upload and organize files
-- Share and collaborate
-- [Learn more →](../features/file-management.md)
 
 **Analytics** 📊
 - Usage reports and insights
@@ -311,4 +281,4 @@ Access help directly from your dashboard:
 
 ---
 
-**Previous:** [← Account Creation](account-creation.md) | **Next:** [AI Writer →](../features/ai-writer.md)
+**Previous:** [← Account Creation](account-creation.md) | **Next:** [IQ Bot →](../chatbots/iq-bot/overview.md)

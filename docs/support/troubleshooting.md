@@ -145,8 +145,8 @@ Check file size limits:
 
 **Solution:**
 - Convert to supported format
-- See supported formats: [File Management](../features/file-management.md)
 - Check file extension
+- Contact support for format questions
 
 **3. Storage Full**
 

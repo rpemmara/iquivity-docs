@@ -89,17 +89,6 @@ Create high-converting marketing content with AI-powered tools:
 
 [Explore Marketing Tools →](marketing/overview.md){ .md-button }
 
-### :fontawesome-solid-wand-magic-sparkles: **Generative AI** - Content at Scale
-Create professional content in seconds with advanced AI:
-
-- **AI Writer** - Blog posts, articles, marketing copy
-- **AI Images** - Text-to-image with multiple styles
-- **AI Videos** - URL-to-video and viral clips
-
-**Revenue Impact:** Create content that educates and converts customers faster and cheaper
-
-[Explore Generative AI →](features/ai-writer.md){ .md-button }
-
 ---
 
 ## Quick Start
