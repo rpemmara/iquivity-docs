@@ -1,0 +1,3680 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Comprehensive user guide for iQuivity platform">
+      
+      
+        <meta name="author" content="iQuivity Team">
+      
+      
+        <link rel="canonical" href="https://rpemmara.github.io/iquivity-docs/features/ai-writer/">
+      
+      
+        <link rel="prev" href="../../getting-started/dashboard/">
+      
+      
+        <link rel="next" href="../ai-images/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>AI Writer - iQuivity Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-content-generation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iQuivity Documentation" class="md-header__button md-logo" aria-label="iQuivity Documentation" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iQuivity Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Writer
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../getting-started/introduction/" class="md-tabs__link">
+          
+  
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  AI Content Generation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../chatbots/iq-bot/overview/" class="md-tabs__link">
+          
+  
+  
+  IQ Bot
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../chatbots/ai-bot/overview/" class="md-tabs__link">
+          
+  
+  
+  AI Bot (Website)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../chatbots/chat-pro/overview/" class="md-tabs__link">
+          
+  
+  
+  AI Chat Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../marketing/social-media/dashboard/" class="md-tabs__link">
+          
+  
+  
+  Marketing Tools
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../file-management/" class="md-tabs__link">
+          
+  
+  
+  Features
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../account/profile/" class="md-tabs__link">
+          
+  
+  
+  Account Management
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iQuivity Documentation" class="md-nav__button md-logo" aria-label="iQuivity Documentation" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    iQuivity Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/account-creation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating Your Account
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Content Generation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Content Generation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Writer
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Writer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-content-tools-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Content Tools Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-writer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Writer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Writer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-ai-writer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use AI Writer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Editor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Editor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-ai-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use AI Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-article-wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Article Wizard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Article Wizard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-ai-article-wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use AI Article Wizard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-rewriter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI ReWriter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI ReWriter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-ai-rewriter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use AI ReWriter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-cases_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-types-available" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Content Types Available
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Content Types Available">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marketing-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marketing Content
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seo-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SEO Content
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#social-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Social Media
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#business-writing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Writing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creative-writing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creative Writing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Content Templates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batch-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Batch Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Content Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-best-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips for Best Results
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tips for Best Results">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#writing-effective-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing Effective Prompts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iterative-refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Iterative Refinement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#credit-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Credit Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-images/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Image Generator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Video Creator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IQ Bot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    IQ Bot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/iq-bot/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/iq-bot/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Bot (Website)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Bot (Website)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/ai-bot/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/ai-bot/creating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating AI Bots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/ai-bot/training/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training & Knowledge
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/ai-bot/deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deployment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/ai-bot/knowledge-base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Knowledge Base
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/ai-bot/contacts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contacts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Chat Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Chat Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/chat-pro/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/chat-pro/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using Chatbots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/chat-pro/conversations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Managing Conversations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chatbots/chat-pro/settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings & Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marketing Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Marketing Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Social Media
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Social Media
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/social-media/dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/social-media/campaigns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campaigns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/social-media/platforms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platforms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/social-media/posts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Social Media Posts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/social-media/calendar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marketing Bot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Marketing Bot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/marketing-bot/dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/marketing-bot/inbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/marketing-bot/campaigns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campaigns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/marketing-bot/telegram/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Telegram
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/marketing-bot/whatsapp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WhatsApp
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/marketing-bot/settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Influencer
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Influencer
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/ai-influencer/dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/ai-influencer/url-to-video/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    URL to Video
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/ai-influencer/viral-clips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Viral Clips
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/ai-influencer/avatar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Influencer Avatar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Features
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Features
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../file-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Templates & Workbooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collaboration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Collaboration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Account Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Account Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../account/profile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profile Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../account/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security & 2FA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../account/billing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing & Subscription
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ai-content-generation">AI Content Generation<a class="headerlink" href="#ai-content-generation" title="Permanent link">&para;</a></h1>
+<p>Create high-quality written content with AI assistance. From blog posts to marketing copy, iQuivity's AI content generation tools help you create professional content in seconds.</p>
+<hr />
+<h2 id="ai-content-tools-overview">AI Content Tools Overview<a class="headerlink" href="#ai-content-tools-overview" title="Permanent link">&para;</a></h2>
+<p>iQuivity provides multiple AI-powered writing tools for different needs:</p>
+<p><strong>Content Creation Tools:</strong></p>
+<ul>
+<li><strong>AI Writer</strong> - Generate new content from scratch</li>
+<li><strong>AI Editor</strong> - Edit and refine existing content</li>
+<li><strong>AI Article Wizard</strong> - Step-by-step article creation wizard</li>
+<li><strong>AI ReWriter</strong> - Rewrite existing content in different styles</li>
+</ul>
+<p>Choose the tool that best fits your workflow and content needs.</p>
+<hr />
+<h2 id="ai-writer">AI Writer<a class="headerlink" href="#ai-writer" title="Permanent link">&para;</a></h2>
+<p>The AI Writer is your intelligent writing assistant, capable of creating diverse content types for any purpose.</p>
+<h3 id="how-to-use-ai-writer">How to Use AI Writer<a class="headerlink" href="#how-to-use-ai-writer" title="Permanent link">&para;</a></h3>
+<h4 id="1-select-a-template">1. Select a Template<a class="headerlink" href="#1-select-a-template" title="Permanent link">&para;</a></h4>
+<p>Navigate to <strong>Dashboard</strong> → <strong>AI Writer</strong> and choose from organized categories:</p>
+<p><strong>Content Categories</strong></p>
+<ul>
+<li><strong>Blog Posts &amp; Articles</strong> - Long-form content for websites and publications</li>
+<li><strong>Social Media Content</strong> - Posts for Twitter, LinkedIn, Instagram, Facebook</li>
+<li><strong>Marketing Copy</strong> - Ads, landing pages, email campaigns</li>
+<li><strong>Product Descriptions</strong> - E-commerce content that sells</li>
+<li><strong>Email Templates</strong> - Professional and marketing emails</li>
+<li><strong>SEO Content</strong> - Keyword-optimized articles and meta content</li>
+<li><strong>Creative Writing</strong> - Stories, scripts, poetry, song lyrics</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Template Recommendations</p>
+<p>Not sure which template to use? Click the "Recommend" button and answer a few questions about your content goals for personalized suggestions.</p>
+</div>
+<h4 id="2-enter-your-prompt">2. Enter Your Prompt<a class="headerlink" href="#2-enter-your-prompt" title="Permanent link">&para;</a></h4>
+<p>Provide a clear, detailed description of what you want to create.</p>
+<p><strong>Example Prompts:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Good Prompt:
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>&quot;Write a professional blog post about the benefits of AI in healthcare,
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>1000 words, targeting medical professionals, including 3 real-world
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>examples and statistics&quot;
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Bad Prompt:
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>&quot;Write about healthcare&quot;
+</span></code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Be Specific</p>
+<p>The more detailed your prompt, the better your results. Include information about:</p>
+<ul>
+<li>Target audience</li>
+<li>Desired length</li>
+<li>Tone and style</li>
+<li>Key points to cover</li>
+<li>Any specific requirements</li>
+</ul>
+</div>
+<h4 id="3-customize-settings">3. Customize Settings<a class="headerlink" href="#3-customize-settings" title="Permanent link">&para;</a></h4>
+<p>Fine-tune your content generation with these options:</p>
+<p><strong>Tone Settings</strong>
+- <strong>Professional</strong> - Formal business communication
+- <strong>Casual</strong> - Relaxed, conversational style
+- <strong>Friendly</strong> - Warm and approachable
+- <strong>Formal</strong> - Academic or official documents
+- <strong>Creative</strong> - Unique and imaginative
+- <strong>Persuasive</strong> - Convincing sales copy
+- <strong>Informative</strong> - Educational and explanatory</p>
+<p><strong>Language Options</strong>
+- Select from 50+ languages
+- Multi-language content generation
+- Automatic translation available</p>
+<p><strong>Length Control</strong>
+- <strong>Short</strong> - 100-300 words
+- <strong>Medium</strong> - 300-800 words
+- <strong>Long</strong> - 800-2000 words
+- <strong>Custom</strong> - Specify exact word count</p>
+<p><strong>Creativity Level</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Conservative ◄──────●────► Highly Creative
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>                 (Slider)
+</span></code></pre></div></p>
+<ul>
+<li><strong>Low</strong> - Factual, predictable, safe</li>
+<li><strong>Medium</strong> - Balanced creativity and reliability</li>
+<li><strong>High</strong> - Unique, imaginative, experimental</li>
+</ul>
+<p><strong>Target Audience</strong>
+- Specify who will read this content
+- Helps AI adjust vocabulary and complexity
+- Examples: executives, students, general public, experts</p>
+<h4 id="4-generate-content">4. Generate Content<a class="headerlink" href="#4-generate-content" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Review your settings</li>
+<li>Click <strong>"Generate"</strong> button</li>
+<li>Wait for AI processing (typically 5-30 seconds)</li>
+<li>Content appears in the editor</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Generation Time</p>
+<ul>
+<li>Short content: 5-10 seconds</li>
+<li>Medium content: 10-20 seconds</li>
+<li>Long content: 20-30 seconds</li>
+</ul>
+<p>Premium plans have priority processing for faster results.</p>
+</div>
+<h4 id="5-edit-refine">5. Edit &amp; Refine<a class="headerlink" href="#5-edit-refine" title="Permanent link">&para;</a></h4>
+<p>Use powerful editing tools to perfect your content:</p>
+<p><strong>AI Enhancement Tools</strong></p>
+<p><strong>Improve</strong> ✨
+- Enhance existing text
+- Better word choice and flow
+- Grammar and style corrections
+- Click on any paragraph and select "Improve"</p>
+<p><strong>Expand</strong> 📝
+- Add more details to selected text
+- Elaborate on ideas
+- Reach target word count
+- Maintains consistent tone</p>
+<p><strong>Shorten</strong> ✂️
+- Condense verbose content
+- Keep key information
+- Meet strict word limits
+- Preserve meaning</p>
+<p><strong>Rewrite</strong> 🔄
+- Generate alternative versions
+- Different perspective or angle
+- Change tone or style
+- Get multiple variations</p>
+<p><strong>Continue Writing</strong> ➡️
+- AI continues from where you left off
+- Maintains context and flow
+- Overcome writer's block
+- Extend your content naturally</p>
+<p><strong>Built-in Editor Features</strong>
+- Rich text formatting
+- Spell check and grammar
+- Word count tracker
+- Reading time estimate
+- Plagiarism checker (Premium plans)</p>
+<h4 id="6-save-export">6. Save &amp; Export<a class="headerlink" href="#6-save-export" title="Permanent link">&para;</a></h4>
+<p><strong>Save Options</strong>
+- <strong>Save to Workspace</strong> - Keep in your iQuivity account
+- <strong>Create Version</strong> - Save multiple versions
+- <strong>Auto-save</strong> - Enabled by default every 30 seconds</p>
+<p><strong>Export Formats</strong>
+- <strong>PDF</strong> - Professional document format
+- <strong>Word (.docx)</strong> - Microsoft Word compatible
+- <strong>Plain Text (.txt)</strong> - Simple text file
+- <strong>Markdown (.md)</strong> - For developers and technical writers
+- <strong>HTML</strong> - Web-ready format</p>
+<p><strong>Sharing</strong>
+- Copy to clipboard
+- Share with team members
+- Generate public link (with expiration)
+- Email directly from platform</p>
+<div class="admonition success">
+<p class="admonition-title">Quick Export</p>
+<p>Use <strong>⌘/Ctrl + E</strong> to quickly export your document. Choose your format and download instantly!</p>
+</div>
+<hr />
+<h2 id="ai-editor">AI Editor<a class="headerlink" href="#ai-editor" title="Permanent link">&para;</a></h2>
+<p>Edit and refine existing content with AI-powered enhancement tools.</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h3>
+<p>The AI Editor helps you improve, polish, and perfect your existing content. Whether you've written content yourself or received it from another source, the AI Editor can enhance quality, fix errors, and adapt the style to your needs.</p>
+<h3 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h3>
+<p><strong>AI-Powered Editing:</strong>
+- Grammar and spelling corrections
+- Style improvement
+- Tone adjustment
+- Clarity enhancement
+- Sentence structure optimization
+- Word choice refinement</p>
+<p><strong>Editing Modes:</strong></p>
+<p><strong>Polish &amp; Improve</strong>
+- Enhance overall quality
+- Fix grammar and spelling
+- Improve readability
+- Better word choices
+- Maintain original meaning</p>
+<p><strong>Change Tone</strong>
+- Convert to professional tone
+- Make more casual
+- Add persuasive elements
+- Adjust formality level
+- Match brand voice</p>
+<p><strong>Simplify</strong>
+- Reduce complexity
+- Shorter sentences
+- Clearer language
+- Remove jargon
+- Improve accessibility</p>
+<p><strong>Expand Content</strong>
+- Add more details
+- Elaborate on points
+- Increase word count
+- Maintain consistency
+- Add examples</p>
+<p><strong>Shorten Content</strong>
+- Condense text
+- Remove redundancy
+- Keep key points
+- Meet word limits
+- Maintain meaning</p>
+<h3 id="how-to-use-ai-editor">How to Use AI Editor<a class="headerlink" href="#how-to-use-ai-editor" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1: Access AI Editor</strong>
+1. Navigate to <strong>Dashboard</strong> → <strong>AI CONTENT</strong> → <strong>AI Editor</strong>
+2. Open the AI Editor interface</p>
+<p><strong>Step 2: Input Your Content</strong>
+1. <strong>Paste existing text</strong> - Copy and paste your content
+2. <strong>Upload document</strong> - Import Word, PDF, or text files
+3. <strong>Type directly</strong> - Enter content manually</p>
+<p><strong>Step 3: Select Editing Operation</strong></p>
+<p>Choose what you want to improve:</p>
+<p><strong>Quick Fixes:</strong>
+- <strong>Grammar Check</strong> - Correct grammatical errors
+- <strong>Spell Check</strong> - Fix spelling mistakes
+- <strong>Punctuation</strong> - Improve punctuation usage</p>
+<p><strong>Style Improvements:</strong>
+- <strong>Improve Writing</strong> - Overall quality enhancement
+- <strong>Make Professional</strong> - Business-appropriate tone
+- <strong>Make Casual</strong> - Conversational style
+- <strong>Make Persuasive</strong> - Add convincing elements</p>
+<p><strong>Content Adjustments:</strong>
+- <strong>Simplify</strong> - Easier to understand
+- <strong>Expand</strong> - Add more details
+- <strong>Shorten</strong> - Reduce length
+- <strong>Reformat</strong> - Restructure content</p>
+<p><strong>Step 4: Review Changes</strong>
+1. AI shows original vs edited version
+2. Review improvements highlighted
+3. Accept or reject changes
+4. Make additional adjustments if needed</p>
+<p><strong>Step 5: Export Edited Content</strong>
+1. Save to workspace
+2. Export in desired format
+3. Copy to clipboard</p>
+<h3 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Permanent link">&para;</a></h3>
+<p><strong>Content Improvement:</strong>
+- Polish draft content
+- Fix grammar in existing articles
+- Improve email communications
+- Enhance marketing copy
+- Refine business documents</p>
+<p><strong>Tone Adjustment:</strong>
+- Make formal content casual
+- Professional tone for business
+- Persuasive sales copy
+- Friendly customer communications
+- Academic writing style</p>
+<p><strong>Content Adaptation:</strong>
+- Simplify technical content for general audience
+- Expand bullet points into paragraphs
+- Shorten long articles for social media
+- Reformat for different platforms</p>
+<hr />
+<h2 id="ai-article-wizard">AI Article Wizard<a class="headerlink" href="#ai-article-wizard" title="Permanent link">&para;</a></h2>
+<p>Create comprehensive articles step-by-step with guided AI assistance.</p>
+<h3 id="overview_1">Overview<a class="headerlink" href="#overview_1" title="Permanent link">&para;</a></h3>
+<p>The AI Article Wizard guides you through article creation with a structured, step-by-step process. Perfect for creating well-organized, comprehensive blog posts and long-form content.</p>
+<h3 id="features_1">Features<a class="headerlink" href="#features_1" title="Permanent link">&para;</a></h3>
+<p><strong>Guided Article Creation:</strong>
+- Step-by-step wizard interface
+- Structured content development
+- AI assistance at each step
+- Organized output
+- Professional formatting</p>
+<p><strong>Article Components:</strong></p>
+<p><strong>Step 1: Article Topic &amp; Overview</strong>
+- Define main topic
+- Set article goals
+- Specify target audience
+- Choose article type
+- Set desired length</p>
+<p><strong>Step 2: Outline Generation</strong>
+- AI generates article outline
+- Main sections suggested
+- Subheadings provided
+- Logical flow structure
+- Edit and customize outline</p>
+<p><strong>Step 3: Introduction Creation</strong>
+- Engaging opening
+- Hook readers
+- Set context
+- Present thesis
+- Preview main points</p>
+<p><strong>Step 4: Body Content</strong>
+- Section-by-section generation
+- Each heading expanded
+- Supporting details added
+- Examples included
+- Smooth transitions</p>
+<p><strong>Step 5: Conclusion</strong>
+- Summarize key points
+- Call-to-action
+- Final thoughts
+- Memorable closing
+- Next steps</p>
+<p><strong>Step 6: SEO Optimization</strong>
+- Meta description
+- Title tag
+- Keyword integration
+- Heading structure
+- Internal linking suggestions</p>
+<h3 id="how-to-use-ai-article-wizard">How to Use AI Article Wizard<a class="headerlink" href="#how-to-use-ai-article-wizard" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1: Launch Wizard</strong>
+1. Navigate to <strong>Dashboard</strong> → <strong>AI CONTENT</strong> → <strong>AI Article Wizard</strong>
+2. Click <strong>"Start New Article"</strong></p>
+<p><strong>Step 2: Article Setup</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Article Configuration:
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>├─ Topic: [Enter your article topic]
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>├─ Target Audience: [Who will read this?]
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>├─ Article Type: [How-to, Listicle, Guide, etc.]
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>├─ Tone: [Professional, Casual, etc.]
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>└─ Length: [1000, 1500, 2000+ words]
+</span></code></pre></div></p>
+<p><strong>Step 3: Generate Outline</strong>
+1. AI creates article outline
+2. Review suggested structure
+3. Add/remove sections
+4. Reorder headings
+5. Customize as needed
+6. Click <strong>"Next"</strong></p>
+<p><strong>Example Outline:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Article: &quot;Complete Guide to Email Marketing&quot;
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>I. Introduction
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>   - The Power of Email Marketing
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>   - Who This Guide Is For
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>II. Getting Started with Email Marketing
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>   A. Building Your Email List
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>   B. Choosing Email Marketing Platform
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>   C. Setting Up Your First Campaign
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>III. Creating Effective Email Content
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>   A. Writing Compelling Subject Lines
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>   B. Email Body Best Practices
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>   C. Call-to-Action Optimization
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>IV. Email Automation
+</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>   A. Welcome Series
+</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>   B. Drip Campaigns
+</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>   C. Behavioral Triggers
+</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>
+</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>V. Measuring Success
+</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>   A. Key Metrics to Track
+</span><span id="__span-3-24"><a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>   B. A/B Testing
+</span><span id="__span-3-25"><a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>   C. Optimization Strategies
+</span><span id="__span-3-26"><a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>
+</span><span id="__span-3-27"><a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>VI. Conclusion
+</span><span id="__span-3-28"><a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>   - Recap of Key Points
+</span><span id="__span-3-29"><a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>   - Next Steps
+</span></code></pre></div></p>
+<p><strong>Step 4: Generate Content</strong>
+1. Click <strong>"Generate Introduction"</strong>
+2. Review and edit
+3. Proceed to each section
+4. AI generates content for each heading
+5. Edit and refine as you go</p>
+<p><strong>Step 5: Add Final Touches</strong>
+- SEO optimization
+- Add images (placeholders suggested)
+- Format for readability
+- Add internal/external links
+- Create meta description</p>
+<p><strong>Step 6: Export Article</strong>
+1. Review complete article
+2. Make final edits
+3. Export or publish</p>
+<h3 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Permanent link">&para;</a></h3>
+<p><strong>Structured Approach:</strong>
+- ✅ Never miss important sections
+- ✅ Logical content flow
+- ✅ Comprehensive coverage
+- ✅ Professional organization
+- ✅ Time-saving process</p>
+<p><strong>Quality Output:</strong>
+- Well-researched content
+- Proper heading hierarchy
+- SEO-optimized structure
+- Reader-friendly format
+- Complete, publish-ready articles</p>
+<hr />
+<h2 id="ai-rewriter">AI ReWriter<a class="headerlink" href="#ai-rewriter" title="Permanent link">&para;</a></h2>
+<p>Rewrite existing content in different styles, tones, or formats while preserving the core message.</p>
+<h3 id="overview_2">Overview<a class="headerlink" href="#overview_2" title="Permanent link">&para;</a></h3>
+<p>The AI ReWriter transforms your existing content into fresh versions with different styles, tones, or perspectives. Perfect for content repurposing, avoiding duplicate content, and adapting content for different audiences.</p>
+<h3 id="features_2">Features<a class="headerlink" href="#features_2" title="Permanent link">&para;</a></h3>
+<p><strong>Rewriting Modes:</strong></p>
+<p><strong>Style Transformation:</strong>
+- <strong>Professional</strong> - Business and corporate style
+- <strong>Casual</strong> - Conversational and relaxed
+- - <strong>Academic</strong> - Scholarly and formal
+- <strong>Creative</strong> - Unique and imaginative
+- <strong>Technical</strong> - Precise and detailed
+- <strong>Simple</strong> - Easy to understand</p>
+<p><strong>Content Repurposing:</strong>
+- Blog post → Social media posts
+- Long article → Email newsletter
+- Technical doc → Beginner's guide
+- Formal report → Casual blog
+- Sales page → Educational content</p>
+<p><strong>Tone Variations:</strong>
+- Friendly and approachable
+- Authoritative and expert
+- Persuasive and convincing
+- Informative and educational
+- Entertaining and engaging</p>
+<p><strong>Format Changes:</strong>
+- Paragraph → Bullet points
+- List → Narrative
+- Q&amp;A → Article
+- Script → Blog post
+- Email → Social post</p>
+<h3 id="how-to-use-ai-rewriter">How to Use AI ReWriter<a class="headerlink" href="#how-to-use-ai-rewriter" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1: Access AI ReWriter</strong>
+1. Navigate to <strong>Dashboard</strong> → <strong>AI CONTENT</strong> → <strong>AI ReWriter</strong>
+2. Open the rewriting interface</p>
+<p><strong>Step 2: Input Original Content</strong>
+1. Paste your existing content
+2. Upload document
+3. Enter URL to scrape content
+4. Type or import text</p>
+<p><strong>Step 3: Select Rewriting Options</strong></p>
+<p><strong>Choose Rewriting Type:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Rewriting Options:
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>├─ Change Style
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>│  ├─ Professional
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>│  ├─ Casual
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>│  ├─ Academic
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>│  └─ Creative
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>├─ Change Tone
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>│  ├─ Friendly
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>│  ├─ Formal
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>│  ├─ Persuasive
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>│  └─ Neutral
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>├─ Change Format
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>│  ├─ Paragraphs to bullets
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>│  ├─ Bullets to paragraphs
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>│  ├─ Q&amp;A format
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>│  └─ Story format
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>└─ Repurpose Content
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>   ├─ Blog → Social
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>   ├─ Long → Short
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>   ├─ Technical → Simple
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>   └─ Custom adaptation
+</span></code></pre></div></p>
+<p><strong>Step 4: Customize Settings</strong>
+- <strong>Creativity Level</strong> - How much to change
+- <strong>Length</strong> - Shorter, same, or longer
+- <strong>Target Audience</strong> - Who will read it
+- <strong>Key Points to Preserve</strong> - Must-keep elements
+- <strong>Words to Include</strong> - Required keywords</p>
+<p><strong>Step 5: Generate Rewritten Content</strong>
+1. Click <strong>"Rewrite"</strong>
+2. AI generates new version
+3. Review changes
+4. Generate multiple variations if needed</p>
+<p><strong>Step 6: Compare &amp; Choose</strong>
+- View original vs rewritten side-by-side
+- Compare multiple variations
+- Select best version
+- Make final edits
+- Export content</p>
+<h3 id="use-cases_1">Use Cases<a class="headerlink" href="#use-cases_1" title="Permanent link">&para;</a></h3>
+<p><strong>Content Repurposing:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Original: 2000-word blog post
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>Rewrite to:
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>├─ 5 social media posts
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>├─ Email newsletter
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>├─ Short LinkedIn article
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>├─ Twitter thread
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>└─ Instagram captions
+</span></code></pre></div></p>
+<p><strong>Audience Adaptation:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Original: Technical whitepaper
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>Rewrite for:
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>├─ Executive summary
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>├─ Beginner&#39;s guide
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>├─ Sales presentation
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>├─ Customer FAQ
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>└─ Blog post
+</span></code></pre></div></p>
+<p><strong>SEO &amp; Duplicate Content:</strong>
+- Rewrite product descriptions
+- Create unique variations
+- Avoid duplicate content penalties
+- Multiple landing page versions
+- A/B testing variations</p>
+<p><strong>Multilingual Adaptation:</strong>
+- Rewrite after translation
+- Cultural adaptation
+- Localization refinement
+- Tone adjustment for regions</p>
+<h3 id="benefits_1">Benefits<a class="headerlink" href="#benefits_1" title="Permanent link">&para;</a></h3>
+<p><strong>Save Time:</strong>
+- ✅ Repurpose content quickly
+- ✅ Create variations instantly
+- ✅ Avoid writing from scratch
+- ✅ Efficient content multiplication</p>
+<p><strong>Maintain Quality:</strong>
+- ✅ Preserve core message
+- ✅ Professional output
+- ✅ Consistent quality
+- ✅ Brand voice alignment</p>
+<p><strong>Increase Reach:</strong>
+- ✅ Adapt for different platforms
+- ✅ Target multiple audiences
+- ✅ Maximize content value
+- ✅ Extend content lifespan</p>
+<hr />
+<h2 id="content-types-available">Content Types Available<a class="headerlink" href="#content-types-available" title="Permanent link">&para;</a></h2>
+<h3 id="marketing-content">Marketing Content<a class="headerlink" href="#marketing-content" title="Permanent link">&para;</a></h3>
+<h4 id="ad-copy">Ad Copy<a class="headerlink" href="#ad-copy" title="Permanent link">&para;</a></h4>
+<p>Generate compelling ads for multiple platforms:</p>
+<ul>
+<li><strong>Google Ads</strong> - Search and display ads</li>
+<li><strong>Facebook Ads</strong> - News feed and story ads</li>
+<li><strong>LinkedIn Ads</strong> - Professional audience targeting</li>
+<li><strong>Instagram Ads</strong> - Visual-first advertising</li>
+<li><strong>Twitter Ads</strong> - Concise, engaging tweets</li>
+</ul>
+<p><strong>Features:</strong>
+- Multiple headline variations
+- A/B testing options
+- Call-to-action optimization
+- Character limit compliance</p>
+<h4 id="landing-page-copy">Landing Page Copy<a class="headerlink" href="#landing-page-copy" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Hero sections with compelling headlines</li>
+<li>Feature descriptions and benefits</li>
+<li>Social proof and testimonials</li>
+<li>Clear calls-to-action</li>
+<li>SEO-optimized content</li>
+</ul>
+<h4 id="email-campaigns">Email Campaigns<a class="headerlink" href="#email-campaigns" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Subject line generator</li>
+<li>Email body content</li>
+<li>Personalization tokens</li>
+<li>Mobile-responsive formatting</li>
+<li>Newsletter templates</li>
+</ul>
+<h4 id="product-descriptions">Product Descriptions<a class="headerlink" href="#product-descriptions" title="Permanent link">&para;</a></h4>
+<ul>
+<li>E-commerce optimized</li>
+<li>Feature and benefit highlights</li>
+<li>SEO keywords integration</li>
+<li>Compelling product stories</li>
+<li>Technical specifications formatting</li>
+</ul>
+<h4 id="sales-letters">Sales Letters<a class="headerlink" href="#sales-letters" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Persuasive copywriting</li>
+<li>Problem-solution structure</li>
+<li>Urgency and scarcity elements</li>
+<li>Strong closing statements</li>
+</ul>
+<h3 id="seo-content">SEO Content<a class="headerlink" href="#seo-content" title="Permanent link">&para;</a></h3>
+<h4 id="blog-articles">Blog Articles<a class="headerlink" href="#blog-articles" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Keyword-optimized content</li>
+<li>Proper heading structure (H1, H2, H3)</li>
+<li>Internal linking suggestions</li>
+<li>Meta description included</li>
+<li>Engaging introductions and conclusions</li>
+</ul>
+<h4 id="meta-descriptions">Meta Descriptions<a class="headerlink" href="#meta-descriptions" title="Permanent link">&para;</a></h4>
+<ul>
+<li>150-160 character optimization</li>
+<li>Keyword inclusion</li>
+<li>Compelling call-to-action</li>
+<li>Multiple variations</li>
+</ul>
+<h4 id="title-tags">Title Tags<a class="headerlink" href="#title-tags" title="Permanent link">&para;</a></h4>
+<ul>
+<li>SEO best practices</li>
+<li>Character limit compliance</li>
+<li>Keyword placement</li>
+<li>Clickthrough optimization</li>
+</ul>
+<h4 id="long-form-seo-content">Long-Form SEO Content<a class="headerlink" href="#long-form-seo-content" title="Permanent link">&para;</a></h4>
+<ul>
+<li>2000+ word articles</li>
+<li>Topic cluster coverage</li>
+<li>FAQ sections</li>
+<li>Featured snippet optimization</li>
+</ul>
+<h3 id="social-media">Social Media<a class="headerlink" href="#social-media" title="Permanent link">&para;</a></h3>
+<h4 id="platform-specific-posts">Platform-Specific Posts<a class="headerlink" href="#platform-specific-posts" title="Permanent link">&para;</a></h4>
+<p><strong>Twitter/X</strong> 🐦
+- 280 character optimization
+- Thread creation
+- Hashtag suggestions
+- Engagement hooks</p>
+<p><strong>LinkedIn</strong> 💼
+- Professional tone
+- Thought leadership content
+- Industry insights
+- Poll suggestions</p>
+<p><strong>Instagram</strong> 📸
+- Caption creation
+- Story text
+- Hashtag research
+- Bio optimization</p>
+<p><strong>Facebook</strong> 👥
+- Engagement-focused posts
+- Community building content
+- Event descriptions
+- Group post ideas</p>
+<h4 id="social-media-features">Social Media Features<a class="headerlink" href="#social-media-features" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Hashtag Generator</strong> - Relevant hashtag suggestions</li>
+<li><strong>Content Calendar</strong> - Plan and schedule posts</li>
+<li><strong>Thread Creator</strong> - Multi-post story threads</li>
+<li><strong>Caption Length Optimizer</strong> - Platform-specific formatting</li>
+</ul>
+<h3 id="business-writing">Business Writing<a class="headerlink" href="#business-writing" title="Permanent link">&para;</a></h3>
+<h4 id="reports">Reports<a class="headerlink" href="#reports" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Executive summaries</li>
+<li>Data analysis sections</li>
+<li>Methodology descriptions</li>
+<li>Findings and recommendations</li>
+<li>Professional formatting</li>
+</ul>
+<h4 id="proposals">Proposals<a class="headerlink" href="#proposals" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Cover letters</li>
+<li>Project scope</li>
+<li>Timelines and deliverables</li>
+<li>Pricing and terms</li>
+<li>Call-to-action</li>
+</ul>
+<h4 id="presentations">Presentations<a class="headerlink" href="#presentations" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Slide content</li>
+<li>Speaker notes</li>
+<li>Key talking points</li>
+<li>Audience engagement elements</li>
+</ul>
+<h4 id="executive-summaries">Executive Summaries<a class="headerlink" href="#executive-summaries" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Concise overview</li>
+<li>Key findings highlighted</li>
+<li>Action items</li>
+<li>Decision-focused content</li>
+</ul>
+<h4 id="meeting-notes">Meeting Notes<a class="headerlink" href="#meeting-notes" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Agenda creation</li>
+<li>Action item tracking</li>
+<li>Decision documentation</li>
+<li>Follow-up tasks</li>
+</ul>
+<h3 id="creative-writing">Creative Writing<a class="headerlink" href="#creative-writing" title="Permanent link">&para;</a></h3>
+<h4 id="stories">Stories<a class="headerlink" href="#stories" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Short stories</li>
+<li>Chapter content</li>
+<li>Character development</li>
+<li>Plot outlines</li>
+<li>Dialogue generation</li>
+</ul>
+<h4 id="scripts">Scripts<a class="headerlink" href="#scripts" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Video scripts</li>
+<li>Podcast scripts</li>
+<li>Advertisement scripts</li>
+<li>YouTube video scripts</li>
+<li>Screenplay formatting</li>
+</ul>
+<h4 id="poetry">Poetry<a class="headerlink" href="#poetry" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Various poetry styles</li>
+<li>Rhyme schemes</li>
+<li>Free verse</li>
+<li>Haiku and sonnets</li>
+</ul>
+<h4 id="song-lyrics">Song Lyrics<a class="headerlink" href="#song-lyrics" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Verse and chorus structure</li>
+<li>Rhyming lyrics</li>
+<li>Multiple genre styles</li>
+<li>Hook creation</li>
+</ul>
+<h2 id="advanced-features">Advanced Features<a class="headerlink" href="#advanced-features" title="Permanent link">&para;</a></h2>
+<h3 id="content-templates">Content Templates<a class="headerlink" href="#content-templates" title="Permanent link">&para;</a></h3>
+<p>Save time with reusable templates:</p>
+<ol>
+<li><strong>Create Custom Template</strong></li>
+<li>Go to <strong>AI Writer</strong> → <strong>My Templates</strong></li>
+<li>Click <strong>"Create Template"</strong></li>
+<li>Define structure and variables</li>
+<li>
+<p>Save for future use</p>
+</li>
+<li>
+<p><strong>Template Variables</strong>
+   <div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Product: {{product_name}}
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>Benefit: {{main_benefit}}
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>Audience: {{target_audience}}
+</span></code></pre></div></p>
+</li>
+<li>
+<p><strong>Share Templates</strong></p>
+</li>
+<li>Share with team members</li>
+<li>Export template definitions</li>
+<li>Import community templates</li>
+</ol>
+<h3 id="batch-generation">Batch Generation<a class="headerlink" href="#batch-generation" title="Permanent link">&para;</a></h3>
+<p>Generate multiple content pieces at once:</p>
+<ul>
+<li>Create variations of the same prompt</li>
+<li>Generate content in multiple languages</li>
+<li>A/B test different approaches</li>
+<li>Save time on repetitive content</li>
+</ul>
+<p><strong>How to Use:</strong>
+1. Enable <strong>"Batch Mode"</strong>
+2. Set number of variations (2-10)
+3. Adjust variation settings
+4. Generate all at once
+5. Compare and select best version</p>
+<h3 id="content-optimization">Content Optimization<a class="headerlink" href="#content-optimization" title="Permanent link">&para;</a></h3>
+<p><strong>SEO Scoring</strong> (Premium)
+- Real-time SEO analysis
+- Keyword density tracking
+- Readability score
+- Improvement suggestions</p>
+<p><strong>Readability Analysis</strong>
+- Flesch-Kincaid score
+- Grade level assessment
+- Sentence complexity
+- Improvement tips</p>
+<p><strong>Tone Analysis</strong>
+- Tone consistency check
+- Emotion detection
+- Brand voice alignment
+- Adjustment recommendations</p>
+<h2 id="tips-for-best-results">Tips for Best Results<a class="headerlink" href="#tips-for-best-results" title="Permanent link">&para;</a></h2>
+<h3 id="writing-effective-prompts">Writing Effective Prompts<a class="headerlink" href="#writing-effective-prompts" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Prompt Formula</p>
+<p><strong>Perfect Prompt = Context + Task + Format + Constraints + Examples</strong></p>
+</div>
+<p><strong>Example:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Context: You&#39;re writing for a B2B SaaS company
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>Task: Create a blog post about cloud security
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>Format: 800 words, professional tone
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>Constraints: Must include 3 statistics and 2 expert quotes
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>Examples: Similar to articles on TechCrunch
+</span></code></pre></div></p>
+<h3 id="iterative-refinement">Iterative Refinement<a class="headerlink" href="#iterative-refinement" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Start Broad</strong> - Generate initial content</li>
+<li><strong>Review</strong> - Identify what works and what doesn't</li>
+<li><strong>Refine Prompt</strong> - Adjust instructions</li>
+<li><strong>Regenerate</strong> - Create improved version</li>
+<li><strong>Polish</strong> - Final human edits</li>
+</ol>
+<h3 id="credit-optimization">Credit Optimization<a class="headerlink" href="#credit-optimization" title="Permanent link">&para;</a></h3>
+<p><strong>Save Credits By:</strong>
+- Using appropriate length settings (don't generate long content if you need short)
+- Writing better prompts (fewer regenerations needed)
+- Using "Improve" on specific sections instead of regenerating entire documents
+- Batch generating variations instead of individual requests</p>
+<div class="admonition note">
+<p class="admonition-title">Credit Costs</p>
+<ul>
+<li>Short text (&lt; 300 words): 1-2 credits</li>
+<li>Medium text (300-800 words): 3-5 credits</li>
+<li>Long text (800-2000 words): 6-10 credits</li>
+<li>Improvements/edits: 1-3 credits</li>
+</ul>
+</div>
+<hr />
+<p><strong>Previous:</strong> <a href="../../getting-started/dashboard/">← Dashboard</a> | <strong>Next:</strong> <a href="../ai-images/">AI Images →</a></p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve by telling us what you were looking for.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../getting-started/dashboard/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Dashboard Overview">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Dashboard Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../ai-images/" class="md-footer__link md-footer__link--next" aria-label="Next: AI Image Generator">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                AI Image Generator
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 iQuivity. All rights reserved.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://twitter.com/iquivityai" target="_blank" rel="noopener" title="iQuivity on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://linkedin.com/company/iquivity" target="_blank" rel="noopener" title="iQuivity on LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:support@iquivity.ai" target="_blank" rel="noopener" title="Email Support" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "toc.follow", "toc.integrate"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
