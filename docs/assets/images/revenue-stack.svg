@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="max-width: 100%; height: auto;">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    REVENUE GENERATION
+  </text>
+
+  <!-- IQ Bot - Flagship (Top Box) -->
+  <defs>
+    <linearGradient id="iqbotGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="supportGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- IQ Bot Main Box -->
+  <rect x="150" y="80" width="500" height="120" rx="12" fill="url(#iqbotGradient)" stroke="#4c1d95" stroke-width="2"/>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">
+    IQ Bot (Flagship Revenue Tool)
+  </text>
+  <text x="170" y="140" font-family="Arial, sans-serif" font-size="16" fill="white">
+    • Eliminates funnel drop-off
+  </text>
+  <text x="170" y="165" font-family="Arial, sans-serif" font-size="16" fill="white">
+    • 2-5x conversion rate improvement
+  </text>
+  <text x="170" y="190" font-family="Arial, sans-serif" font-size="16" fill="white">
+    • Single unified customer interface
+  </text>
+
+  <!-- "Supported and Enhanced by" text - MOVED ABOVE ARROW -->
+  <text x="400" y="245" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#475569">
+    Supported and Enhanced by:
+  </text>
+
+  <!-- Arrow pointing down -->
+  <path d="M 400 220 L 400 270" stroke="#6366f1" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <polygon points="0 0, 10 5, 0 10" fill="#6366f1" />
+    </marker>
+  </defs>
+
+  <!-- Three Support Boxes -->
+
+  <!-- AI Bot Box -->
+  <rect x="50" y="300" width="220" height="200" rx="10" fill="url(#supportGradient)" stroke="#4338ca" stroke-width="2"/>
+  <text x="160" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+    AI Bot
+  </text>
+  <line x1="70" y1="345" x2="250" y2="345" stroke="white" stroke-width="2" opacity="0.3"/>
+
+  <text x="160" y="375" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• Chat</text>
+  <text x="160" y="400" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• Support</text>
+  <text x="160" y="425" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• Qualify</text>
+
+  <text x="160" y="465" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="white">
+    Engage
+  </text>
+  <text x="160" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="white">
+    Customers
+  </text>
+
+  <!-- Marketing Tools Box -->
+  <rect x="290" y="300" width="220" height="200" rx="10" fill="url(#supportGradient)" stroke="#4338ca" stroke-width="2"/>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+    Marketing Tools
+  </text>
+  <line x1="310" y1="345" x2="490" y2="345" stroke="white" stroke-width="2" opacity="0.3"/>
+
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• Social Media</text>
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• Influencer</text>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• Marketing Bot</text>
+
+  <text x="400" y="465" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="white">
+    Drive Traffic
+  </text>
+  <text x="400" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="white">
+    to IQ Bots
+  </text>
+
+  <!-- Generative AI Box -->
+  <rect x="530" y="300" width="220" height="200" rx="10" fill="url(#supportGradient)" stroke="#4338ca" stroke-width="2"/>
+  <text x="640" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+    Generative AI
+  </text>
+  <line x1="550" y1="345" x2="730" y2="345" stroke="white" stroke-width="2" opacity="0.3"/>
+
+  <text x="640" y="375" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• AI Writer</text>
+  <text x="640" y="400" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• AI Images</text>
+  <text x="640" y="425" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="white">• AI Videos</text>
+
+  <text x="640" y="465" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="white">
+    Create Content
+  </text>
+  <text x="640" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="white">
+    That Converts
+  </text>
+
+  <!-- Connecting lines from support boxes to IQ Bot -->
+  <path d="M 160 300 L 160 240 L 400 240 L 400 200" stroke="#6366f1" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 400 300 L 400 200" stroke="#6366f1" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 640 300 L 640 240 L 400 240 L 400 200" stroke="#6366f1" stroke-width="3" fill="none" opacity="0.6"/>
+
+  <!-- Bottom banner -->
+  <rect x="150" y="530" width="500" height="50" rx="8" fill="#1e293b"/>
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">
+    All Tools Enhanced with AI
+  </text>
+</svg>

@@ -1,0 +1,188 @@
+site_name: iQuivity Documentation
+site_description: Comprehensive user guide for iQuivity platform
+site_author: iQuivity Team
+site_url: https://[your-github-username].github.io/[your-repo-name]/
+# Change the above URL to match your GitHub Pages URL after deployment
+# Format: https://USERNAME.github.io/REPOSITORY-NAME/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+    - toc.integrate
+
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - awesome-pages
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/iquivityai
+      name: iQuivity on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/iquivity
+      name: iQuivity on LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:support@iquivity.ai
+      name: Email Support
+
+  version:
+    provider: mike
+
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve by telling us what you were looking for.
+
+extra_css:
+  - stylesheets/extra.css
+
+# Copyright
+copyright: Copyright &copy; 2025 iQuivity. All rights reserved.
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Introduction: getting-started/introduction.md
+      - Creating Your Account: getting-started/account-creation.md
+      - Dashboard Overview: getting-started/dashboard.md
+  - AI Content Generation:
+      - AI Writer: features/ai-writer.md
+      - AI Image Generator: features/ai-images.md
+      - AI Video Creator: features/ai-videos.md
+  - IQ Bot:
+      - Overview: chatbots/iq-bot/overview.md
+      - Getting Started: chatbots/iq-bot/getting-started.md
+  - AI Bot (Website):
+      - Overview: chatbots/ai-bot/overview.md
+      - Creating AI Bots: chatbots/ai-bot/creating.md
+      - Training & Knowledge: chatbots/ai-bot/training.md
+      - Deployment: chatbots/ai-bot/deployment.md
+      - Knowledge Base: chatbots/ai-bot/knowledge-base.md
+      - Contacts: chatbots/ai-bot/contacts.md
+  - AI Chat Pro:
+      - Overview: chatbots/chat-pro/overview.md
+      - Using Chatbots: chatbots/chat-pro/usage.md
+      - Managing Conversations: chatbots/chat-pro/conversations.md
+      - Settings & Training: chatbots/chat-pro/settings.md
+  - Marketing Tools:
+      - AI Social Media:
+          - Dashboard: marketing/social-media/dashboard.md
+          - Campaigns: marketing/social-media/campaigns.md
+          - Platforms: marketing/social-media/platforms.md
+          - Social Media Posts: marketing/social-media/posts.md
+          - Calendar: marketing/social-media/calendar.md
+      - Marketing Bot:
+          - Dashboard: marketing/marketing-bot/dashboard.md
+          - Inbox: marketing/marketing-bot/inbox.md
+          - Campaigns: marketing/marketing-bot/campaigns.md
+          - Telegram: marketing/marketing-bot/telegram.md
+          - WhatsApp: marketing/marketing-bot/whatsapp.md
+          - Settings: marketing/marketing-bot/settings.md
+      - AI Influencer:
+          - Dashboard: marketing/ai-influencer/dashboard.md
+          - URL to Video: marketing/ai-influencer/url-to-video.md
+          - AI Viral Clips: marketing/ai-influencer/viral-clips.md
+          - Influencer Avatar: marketing/ai-influencer/avatar.md
+  - Features:
+      - File Management: features/file-management.md
+      - Templates & Workbooks: features/templates.md
+      - Team Collaboration: features/collaboration.md
+  - Account Management:
+      - Profile Settings: account/profile.md
+      - Security & 2FA: account/security.md
+      - Billing & Subscription: account/billing.md

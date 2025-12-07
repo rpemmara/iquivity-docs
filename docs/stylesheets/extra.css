@@ -1,0 +1,50 @@
+/* Custom styles for iQuivity AI documentation */
+
+:root {
+  --md-primary-fg-color: #4F46E5;
+  --md-primary-fg-color--light: #818CF8;
+  --md-primary-fg-color--dark: #3730A3;
+  --md-accent-fg-color: #3B82F6;
+}
+
+/* Add some custom styling for admonitions */
+.md-typeset .admonition {
+  border-left: 4px solid var(--md-accent-fg-color);
+}
+
+/* Improve code block styling */
+.md-typeset pre > code {
+  border-radius: 0.5rem;
+}
+
+/* Better keyboard shortcuts styling */
+.md-typeset kbd {
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+  padding: 0.15rem 0.4rem;
+}
+
+/* Custom header styling with gradient background */
+.md-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure header text and icons are visible on gradient */
+.md-header__title,
+.md-header__button,
+.md-header-nav__button,
+.md-tabs__link {
+  color: white !important;
+}
+
+/* Logo visibility on gradient background */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Table improvements */
+.md-typeset table:not([class]) {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}

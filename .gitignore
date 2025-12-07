@@ -1,0 +1,21 @@
+/node_modules
+/vendor
+/public/storage
+/storage/*.key
+/storage/*
+/.env
+/.env.backup
+/.phpunit.result.cache
+/.idea
+npm-debug.log
+yarn-error.log
+/.vscode
+/.DS_Store
+/config/tenancy.php
+/public/upload/images
+/public/uploads/
+laradumps.yaml
+
+# MkDocs Documentation
+site/
+.cache/
