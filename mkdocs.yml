@@ -180,3 +180,11 @@ nav:
       - Profile Settings: account/profile.md
       - Security & 2FA: account/security.md
       - Billing & Subscription: account/billing.md
+  - Admin Documentation:
+      - Overview: admin/index.md
+      - Dashboard: admin/dashboard.md
+      - User Management: admin/user-management.md
+      - Announcements: admin/announcements.md
+      - Support: admin/support.md
+      - Reseller: admin/reseller.md
+      - Customer: admin/customer.md
