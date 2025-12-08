@@ -37,8 +37,8 @@ The reseller management table displays all active reseller partnerships:
 ### Current Resellers
 
 ```
-John             | +                  | 8 Ponderosa Lane           | Ram Pemmaraju
-Big Bytes        | +3212524142        | 1821 Michael Faraday Drive | Greg Ecklin
+TechCo Solutions | +1-555-0123        | 123 Business Park Drive    | Admin User
+Digital Dynamics | +1-555-0456        | 456 Commerce Street        | Admin User
 ```
 
 **Total Resellers:** 2 active partnerships

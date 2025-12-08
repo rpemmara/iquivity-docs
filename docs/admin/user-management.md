@@ -40,13 +40,13 @@ The user list displays comprehensive information about all registered users:
 ### Sample User Data
 
 ```
-test12 test12      | User          | 0 | 0 | Unknown | Active | 3.11.2025 21:10:50
-test 146           | User          | 0 | 0 | Unknown | Active | 3.11.2025 20:14:22
-test1 test         | User          | 0 | 0 | Unknown | Active | 26.9.2025 06:06:56
-test tesam         | User          | 0 | 0 | Unknown | Active | 25.9.2025 16:43:29
-iq Greg ecklin     | Super Admin   | 0 | 0 | Unknown | Active | 17.9.2025 13:05:01
-Test A             | Customer Admin| 0 | 0 | Algeria | Active | 17.9.2025 09:47:32
-George Waller      | User          | 0 | 0 | Unknown | Active | 16.9.2025 00:42:06
+Emily Anderson     | User          | 0 | 0 | Unknown | Active | 3.11.2025 21:10:50
+Robert Martinez    | User          | 0 | 0 | Unknown | Active | 3.11.2025 20:14:22
+Lisa Thompson      | User          | 0 | 0 | Unknown | Active | 26.9.2025 06:06:56
+James Williams     | User          | 0 | 0 | Unknown | Active | 25.9.2025 16:43:29
+Admin User         | Super Admin   | 0 | 0 | Unknown | Active | 17.9.2025 13:05:01
+Alice Johnson      | Customer Admin| 0 | 0 | Canada  | Active | 17.9.2025 09:47:32
+Thomas Rodriguez   | User          | 0 | 0 | Unknown | Active | 16.9.2025 00:42:06
 ```
 
 ### Search Functionality
@@ -254,9 +254,9 @@ The activity log shows detailed user actions:
 ### Sample Activity Data
 
 ```
-gwaller@zerify.com | customer | 70.23.200.175 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15_7) AppleWebKit/537.36... | 2 days ago
-gwaller@zerify.com | customer | 70.23.200.175 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15_7) AppleWebKit/537.36... | 4 days ago
-gwaller@zerify.com | customer | 70.23.200.175 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15_7) AppleWebKit/537.36... | 5 days ago
+user@example.com   | customer | 192.168.1.100 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15_7) AppleWebKit/537.36... | 2 days ago
+user@example.com   | customer | 192.168.1.100 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15_7) AppleWebKit/537.36... | 4 days ago
+user@example.com   | customer | 192.168.1.100 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15_7) AppleWebKit/537.36... | 5 days ago
 ```
 
 ### Activity Insights

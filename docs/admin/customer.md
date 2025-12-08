@@ -37,8 +37,8 @@ The customer management table displays all company customer accounts:
 ### Current Customers
 
 ```
-Nayda Buckner    | Customer Admin | +11944023137  | symosejuri@yopmail.com
-Test             | Customer Admin | +4454648484646| testa@yopmail.com
+Acme Corporation     | Customer Admin | +1-555-0789  | admin@acmecorp.example
+Global Enterprises   | Customer Admin | +1-555-0321  | contact@globalent.example
 ```
 
 **Total Customers:** 2 company accounts

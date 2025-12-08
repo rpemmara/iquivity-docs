@@ -300,11 +300,11 @@ Latest platform transactions and events:
 
 | Time | User | Activity | Status |
 |------|------|----------|--------|
-| 9:24 PM | Greg | Purchased "Enterprise_Beta_Custom..." | 🟢 |
-| 8:45 PM | George | Purchased "test unlimited" | 🟢 |
-| 4:08 PM | Greg | Purchased "Test Teams functions" | 🟢 |
-| 8:03 PM | Greg | Purchased "Test pro" | 🟢 |
-| 6:48 PM | Brian | Purchased "Test pro" | 🟢 |
+| 9:24 PM | John Smith | Purchased "Enterprise_Beta_Custom..." | 🟢 |
+| 8:45 PM | Sarah Johnson | Purchased "test unlimited" | 🟢 |
+| 4:08 PM | Michael Brown | Purchased "Test Teams functions" | 🟢 |
+| 8:03 PM | David Wilson | Purchased "Test pro" | 🟢 |
+| 6:48 PM | Jennifer Davis | Purchased "Test pro" | 🟢 |
 
 **Activity Tracking:**
 - Real-time purchase monitoring
