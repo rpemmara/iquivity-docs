@@ -2,7 +2,7 @@
 
 Manage your personal information, preferences, and account settings.
 
-## Accessing Profile Settings Test
+## Accessing Profile Settings
 
 Navigate to **Settings** → **Profile** from the dashboard.
 
